@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.util.Random;
 
 public class StoredInt {
-  private String file_path = "./stored-int.txt";
+  private String file_path = "/tmp/stored-int.txt";
 
   public String getStoredInt() {
     File file = new File(file_path);
